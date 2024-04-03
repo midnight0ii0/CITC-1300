@@ -43,7 +43,16 @@ a {
     color: black;
 }
 
-a hover{
+a:hover{
     color: white;
     text-decoration: none;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
