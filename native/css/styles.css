@@ -1,0 +1,137 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: blue;
+}
+
+#container {
+    background-color: white;
+    padding: 5%;
+}
+
+h1, h2, h3 {
+    text-align: left;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+nav {
+   background-color: black; 
+   padding: 5%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 35px;
+    line-height: 25px;
+    color: white;
+    background-color:black;
+    text-align: left;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+main {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#lower {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.col {
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+footer {
+    padding: 50px;
+    text-align: left;
+}
+
+.button {
+    display: block;
+    margin: 10px;
+    text-align: left;
+    background-color: blue;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Tablet Styles */
+
+@media(min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+    
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        width: 190px;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 80%;
+    }
+}
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+}
